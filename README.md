@@ -1,4 +1,4 @@
-# template-typescript
+# useAsyncEffect
 
 Convenience function for usage of useEffect with async functions in React.
 
@@ -10,7 +10,7 @@ Convenience function for usage of useEffect with async functions in React.
 
 ## Why
 
-Convenience and makes code cleaner.
+Convenience and makes code cleaner. The following is allowed
 
 ```ts
 import { useAsyncEffect } from "@jeswr/use-async-effect";
@@ -23,7 +23,7 @@ function MyComponent() {
 }
 ```
 
-In constrast, async function calls with useEffect in React should be structured as follows:
+in constrast, async function calls with useEffect in React should be structured as follows:
 
 ```ts
 import { useEffect } from "react";
