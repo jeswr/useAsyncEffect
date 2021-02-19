@@ -42,4 +42,4 @@ function MyComponent() {
 
 ©2021–present
 [Jesse Wright](https://github.com/jeswr),
-[MIT License](https://github.com/jeswr/useState/blob/master/LICENSE).
+[MIT License](https://github.com/jeswr/useAsyncEffect/blob/master/LICENSE).

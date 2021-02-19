@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { renderHook, act } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react-hooks';
 import { useAsyncEffect } from '../lib';
 
 function resolutionTestHook() {
