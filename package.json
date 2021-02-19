@@ -1,7 +1,7 @@
 {
   "name": "@jeswr/use-async-effect",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Convenience function for usage of useEffect with async functions in React",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "directories": {
@@ -22,15 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/jeswr/useAsyncEffect.git"
   },
-  "keywords": [],
+  "keywords": [
+    "React",
+    "useEffect",
+    "async"
+  ],
   "author": "Jesse Wright <jesse.wright@anu.edu.au>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/jeswr/useAsyncEffect/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/jeswr/useAsyncEffect#readme",
   "devDependencies": {
     "@testing-library/react-hooks": "^5.0.3",
     "@types/jest": "^26.0.19",
@@ -89,5 +93,8 @@
   },
   "dependencies": {
     "react": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
